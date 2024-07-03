@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.category-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    z-index: 1000;
+    top: 0vh;
+}
+
+img {
+    padding: 0;
+}
